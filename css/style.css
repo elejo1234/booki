@@ -1,0 +1,33 @@
+header {
+    display: flex;
+    justify-content: space-between; /* Aligne les éléments à l'extrémité gauche et droite du header */
+    align-items: center; /* Centre verticalement les éléments dans le header */
+    padding: 1em 1em; /* Espacement intérieur du header */
+}
+
+/* Style du logo */
+.logo img {
+    width: 5em; /* Largeur du logo */
+    height: auto; /* Hauteur automatique en maintenant les proportions */
+}
+
+/* Style de la barre de navigation */
+nav ul {
+    list-style-type: none; /* Supprime les puces de la liste */
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-left: 20px; /* Espacement entre les éléments de menu */
+}
+
+nav a {
+    text-decoration: none;
+    color:black;
+}
+
+/* Changement de couleur au survol */
+nav a:hover {
+    color: #0065FC;
+}
