@@ -80,6 +80,7 @@ nav a:hover {
     color: #0065FC;
 }
 
+/*02/10/23 : */
 .searchbar {
   display: flex;
 }
@@ -97,5 +98,21 @@ nav a:hover {
     border: 1px #F2F2F2 solid;
     font-size: 18px;
     font-weight: 700;
-    color:black;
+}
+
+.searchbar input::placeholder {
+  color:black;
+}
+
+.searchbar button {
+  background-color: #0065FC;
+  border-color: #0065FC;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  color: white;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  padding: 1rem;
 }
