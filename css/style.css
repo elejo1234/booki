@@ -2,90 +2,88 @@
   font-family: 'Raleway', sans-serif;
 }
 
-/*Elements du header*/
-
 header {
-    display: flex;
-    justify-content: space-between; /* Aligne les éléments à l'extrémité gauche et droite du header */
-    align-items: center; /* Centre verticalement les éléments dans le header */
-    padding: 1em 1em; /* Espacement intérieur du header */
+  display: flex;
+  padding-right: 0px;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 518.601px;
+  align-self: stretch;
 }
 
-/* Add a black background color to the top navigation bar */
-.topnav {
-    overflow: hidden;
-    background-color: #e9e9e9;
-  }
-  
-  /* Style the links inside the navigation bar */
-  .topnav a {
-    float: left;
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  /* Change the color of links on hover */
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  /* Style the "active" element to highlight the current page */
-  .topnav a.active {
-    background-color: #2196F3;
-    color: white;
-  }
-  
-  /* Style the search box inside the navigation bar */
-  .topnav input[type=text] {
-    float: right;
-    padding: 6px;
-    border: none;
-    margin-top: 8px;
-    margin-right: 16px;
-    font-size: 17px;
-  }
-  
-/* Style du logo */
+.logo {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
 .logo img {
-    width: 5em; /* Largeur du logo */
-    height: auto; /* Hauteur automatique en maintenant les proportions */
+  width: 5rem;
+  height: auto;
 }
 
-/* Style de la barre de navigation */
-nav ul {
-    list-style-type: none; /* Supprime les puces de la liste */
-    padding: 0;
+.menu {
+  display: flex;
+  padding: 0px 50px;
+  flex-direction: column;
+  align-items: center;
+  gap: 68px;
 }
 
-nav li {
-    display: inline;
-    margin-left: 20px; /* Espacement entre les éléments de menu */
+.menubuttons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 68px;
 }
 
-nav a {
-    text-decoration: none;
-    color:black;
+.menubuttons a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
 }
 
-/* Changement de couleur au survol */
-nav a:hover {
-    color: #0065FC;
+.menubuttons a:hover {
+  color: #0065FC;
 }
 
-/*vérifié:*/
+body {
+  display: flex;
+  padding: 0px 50px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 35px;
+  align-self: stretch;
+}
 
-.infogroup h1 {
+.infogroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 35px;
+  align-self: stretch;
+}
+
+.headline {
+  display: flex;
+  height: 53px;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+}
+
+.headline h1 {
   font-size: 22px;
   font-weight: 700;
+  margin-bottom: 4px;
 }
 
-.infogroup p {
+.headline p {
   font-size: 16px;
+  margin-top: 4px;
 }
 
 /*searchbar*/
@@ -102,14 +100,14 @@ nav a:hover {
 }
 
 .searchbar input {
-    padding: 1rem;
-    border: 1px #F2F2F2 solid;
-    font-size: 18px;
-    font-weight: 700;
+  padding: 1rem;
+  border: 1px #F2F2F2 solid;
+  font-size: 18px;
+  font-weight: 700;
 }
 
 .searchbar input::placeholder {
-  color:black;
+  color: black;
 }
 
 .searchbar button {
@@ -120,13 +118,34 @@ nav a:hover {
   color: white;
   font-size: 18px;
   font-weight: 700;
-  border: none;
+  border-style: solid;
   padding: 1rem;
 }
 
 /* */
 
 .filterbar {
+  display: flex;
+  height: 50px;
+  align-items: center;
+  gap: 15px;
+}
+
+.filterbar p {
   font-size: 18px;
   font-weight: 700;
+}
+
+.filtersbutton button {
+  background-color: white;
+  border-color: #D9D9D9;
+  border-radius: 25px;
+  font-size: 17px;
+  font-weight: 700;
+  padding: 1rem;
+  border-style: solid;
+}
+
+.filtersbutton button:active {
+  background-color: #DEEBFF;
 }
