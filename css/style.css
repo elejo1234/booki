@@ -79,3 +79,23 @@ nav a {
 nav a:hover {
     color: #0065FC;
 }
+
+.searchbar {
+  display: flex;
+}
+
+.searchbar i {
+  background-color: #F2F2F2;
+  padding: 1rem;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border: 1px #F2F2F2 solid;
+}
+
+.searchbar input {
+    padding: 1rem;
+    border: 1px #F2F2F2 solid;
+    font-size: 18px;
+    font-weight: 700;
+    color:black;
+}
