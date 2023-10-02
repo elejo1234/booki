@@ -42,8 +42,6 @@ header {
   text-decoration: none;
   color: black;
   text-align: center;
-  font-size: 16px;
-  font-weight: 400;
 }
 
 .menubuttons a:hover {
@@ -86,7 +84,6 @@ body {
   margin-top: 4px;
 }
 
-/*searchbar*/
 .searchbar {
   display: flex;
 }
@@ -122,8 +119,6 @@ body {
   padding: 1rem;
 }
 
-/* */
-
 .filterbar {
   display: flex;
   height: 50px;
@@ -137,6 +132,11 @@ body {
 }
 
 .filtersbutton button {
+  display: inline-flex;
+  height: 50px;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
   background-color: white;
   border-color: #D9D9D9;
   border-radius: 25px;
@@ -148,4 +148,10 @@ body {
 
 .filtersbutton button:active {
   background-color: #DEEBFF;
+}
+
+.infobar {
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }
