@@ -1,6 +1,8 @@
 * {
-    font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
+
+/*Elements du header*/
 
 header {
     display: flex;
@@ -48,11 +50,6 @@ header {
     font-size: 17px;
   }
   
-
-h1 {
-    font-size: 1.5em;
-}
-
 /* Style du logo */
 .logo img {
     width: 5em; /* Largeur du logo */
@@ -80,7 +77,18 @@ nav a:hover {
     color: #0065FC;
 }
 
-/*02/10/23 : */
+/*vérifié:*/
+
+.infogroup h1 {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.infogroup p {
+  font-size: 16px;
+}
+
+/*searchbar*/
 .searchbar {
   display: flex;
 }
@@ -110,9 +118,15 @@ nav a:hover {
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   color: white;
-  font-family: Raleway;
   font-size: 18px;
   font-weight: 700;
   border: none;
   padding: 1rem;
+}
+
+/* */
+
+.filterbar {
+  font-size: 18px;
+  font-weight: 700;
 }
