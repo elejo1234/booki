@@ -152,3 +152,53 @@ body {
   gap: 10px;
   align-items: center;
 }
+
+.offers-main {
+  display: flex;
+  padding: 30px;
+  flex-direction: column;
+  gap: 30px;
+  border-radius: 15px;
+  background-color: #F2F2F2;
+}
+
+.offers-main h1 {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.frame15{
+  display: flex;
+  gap: 30px;
+}
+
+.card-main {
+  display: flex;
+  padding-bottom: 0px;
+  flex-direction: column;
+  gap: 4px;
+  background-color: white;
+}
+
+.rectangle20 {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border: 5px solid white;
+}
+
+.card-title {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.card-description {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.frame16 {
+  display: flex;
+  padding: 0px 15px;
+  flex-direction: column;
+  gap: 8px;
+}
