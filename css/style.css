@@ -178,12 +178,21 @@ body {
   flex-direction: column;
   gap: 4px;
   background-color: white;
+  border-radius: 20px;
+  padding-bottom: 15px;
 }
 
 .rectangle20 {
+  border: 5px solid white;
+  height: 124px;
+}
+
+.rectangle20 img {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  border: 5px solid white;
+  height: 124px;
+  width: 100%;
+  object-fit: cover;
 }
 
 .card-title {
