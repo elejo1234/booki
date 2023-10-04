@@ -238,7 +238,6 @@ body {
 .card-desktop {
   display: flex;
   height: 144px;
-  justify-content: center;
   align-items: center;
   align-self: stretch;
   border-radius: 20px;
@@ -259,7 +258,7 @@ body {
 
 .frame-card-desktop {
   display: flex;
-  width: 246px;
+  width: auto;
   height: 134px;
   padding: 10px 5px 5px 15px;
   flex-direction: column;
