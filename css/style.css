@@ -220,7 +220,6 @@ body {
 
 .offers-sponsored {
   display: flex;
-  width: 429px; /* A vérifier */
   padding: 30px;
   flex-direction: column;
   gap: 30px;
@@ -231,5 +230,7 @@ body {
 .title-offers-sponsored {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 50.825px;
+  align-self: stretch;
 }
