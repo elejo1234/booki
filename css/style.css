@@ -246,6 +246,7 @@ body {
 }
 
 .rectangle24 img {
+  float: left;
   width: 123px;
   height: 144px;
   border-top-left-radius: 20px;
