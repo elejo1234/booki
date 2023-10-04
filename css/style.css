@@ -123,7 +123,7 @@ body {
   gap: 15px;
 }
 
-.title-filter {
+.title {
   font-size: 18px;
   font-weight: 700;
 }
@@ -311,5 +311,24 @@ body {
   justify-content: center;
   align-items: flex-start;
   gap: 10px;
+  align-self: stretch;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+  align-self: stretch;
+  background: #F2F2F2;
+}
+
+.a-propos, .nos-hebergements, .assistance {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  flex: 1 0 0;
   align-self: stretch;
 }
