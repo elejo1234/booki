@@ -153,6 +153,12 @@ body {
   align-items: center;
 }
 
+.sectiongroup {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
 .offers-main {
   display: flex;
   padding: 30px;
@@ -162,12 +168,12 @@ body {
   background-color: #F2F2F2;
 }
 
-.offers-main h1 {
+.title-section {
   font-size: 22px;
   font-weight: 700;
 }
 
-.frame15{
+.frame15 {
   display: flex;
   gap: 30px;
 }
@@ -210,4 +216,20 @@ body {
   padding: 0px 15px;
   flex-direction: column;
   gap: 8px;
+}
+
+.offers-sponsored {
+  display: flex;
+  width: 429px; /* A vérifier */
+  padding: 30px;
+  flex-direction: column;
+  gap: 30px;
+  border-radius: 15px;
+  background-color: #F2F2F2;
+}
+
+.title-offers-sponsored {
+  display: flex;
+  justify-content: center;
+  gap: 50.825px;
 }
