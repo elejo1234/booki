@@ -100,10 +100,6 @@ body {
   font-weight: 700;
 }
 
-.searchbar input::placeholder {
-  color: black;
-}
-
 .searchbar button {
   background-color: #0065FC;
   border-color: #0065FC;
