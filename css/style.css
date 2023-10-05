@@ -45,6 +45,12 @@ header {
   color: #0065FC;
 }
 
+.barre-bleue {
+  border-top: 2px solid blue;
+  position: absolute; /* La barre bleue est positionnée en absolute */
+  top: 0;
+}
+
 body {
   display: flex;
   padding: 0px 50px;
