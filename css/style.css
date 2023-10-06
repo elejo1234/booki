@@ -211,7 +211,6 @@ body {
   flex-direction: column;
   align-items: flex-start;
   gap: 8px;
-  align-self: stretch
 }
 
 .card-title {
@@ -224,6 +223,10 @@ body {
   font-size: 14px;
   font-weight: 400;
   margin: unset;
+}
+
+.stars {
+  display: flex;
 }
 
 .frame-offers-sponsored {
@@ -247,6 +250,7 @@ body {
 
 .title-offers-sponsored {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   gap: 50.825px;
   align-self: stretch;
@@ -275,7 +279,6 @@ body {
 
 .frame-card-desktop {
   display: flex;
-  width: auto;
   height: 134px;
   padding: 10px 5px 5px 15px;
   flex-direction: column;
