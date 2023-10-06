@@ -36,18 +36,20 @@ header {
   gap: 68px;
 }
 
-.menubuttons a, footer a {
+.menubuttons a,
+footer a {
   text-decoration: none;
   color: black;
 }
 
-.menubuttons a:hover, footer a:hover {
+.menubuttons a:hover,
+footer a:hover {
   color: #0065FC;
 }
 
 .barre-bleue {
   border-top: 2px solid blue;
-  position: absolute; /* La barre bleue est positionnée en absolute */
+  position: absolute;
   top: 0;
 }
 
@@ -182,12 +184,10 @@ body {
 
 .card-main {
   display: flex;
-  padding-bottom: 0px;
   flex-direction: column;
   gap: 4px;
-  background-color: white;
   border-radius: 20px;
-  padding-bottom: 15px;
+  background-color: white;
 }
 
 .rectangle20 {
@@ -203,15 +203,27 @@ body {
   object-fit: cover;
 }
 
+.frame-card-main {
+  display: flex;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch
+}
+
 .card-title {
   font-size: 16px;
   font-weight: 700;
-  align-self: stretch;
+  margin: unset;
 }
 
 .card-description {
   font-size: 14px;
   font-weight: 400;
+  margin: unset;
 }
 
 .frame-offers-sponsored {
@@ -286,7 +298,7 @@ body {
 
 .card {
   display: flex;
-  width: 297.5px;
+  height: 439px;
   flex-direction: column;
   align-items: center;
   flex: 1 0 0;
@@ -295,7 +307,7 @@ body {
 }
 
 .card img {
-  width: 100%;
+  width: 297.5px;
   height: 380px;
   object-fit: cover;
   flex-shrink: 0;
@@ -323,7 +335,9 @@ footer {
   background: #F2F2F2;
 }
 
-.a-propos, .nos-hebergements, .assistance {
+.a-propos,
+.nos-hebergements,
+.assistance {
   display: flex;
   padding: 20px;
   flex-direction: column;
