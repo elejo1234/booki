@@ -165,6 +165,7 @@ body {
 
 .offers-main {
   display: flex;
+  height: 650px;
   padding: 30px;
   flex-direction: column;
   gap: 30px;
@@ -228,13 +229,16 @@ body {
 
 .frame-offers-sponsored {
   display: flex;
-  padding: 0px 15px;
   flex-direction: column;
-  gap: 8px;
+  align-items: flex-start;
+  gap: 30px;
+  align-self: stretch;
 }
 
 .offers-sponsored {
   display: flex;
+  width: 429px;
+  height: 650px;
   padding: 30px;
   flex-direction: column;
   gap: 30px;
@@ -244,7 +248,6 @@ body {
 
 .title-offers-sponsored {
   display: flex;
-  justify-content: center;
   align-items: center;
   gap: 50.825px;
   align-self: stretch;
