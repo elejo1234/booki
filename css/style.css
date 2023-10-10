@@ -35,15 +35,13 @@ header {
   gap: 68px;
 }
 
-.menubuttons a,
-footer a {
+a {
   text-decoration: none;
   color: black;
   padding-top: 1em;
 }
 
-.menubuttons a:hover,
-footer a:hover {
+a:hover {
   color: #0065FC;
 }
 
