@@ -47,7 +47,7 @@ footer a:hover {
   color: #0065FC;
 }
 
-.barre-bleue {
+.barre-bleue:hover {
   border-top: 2px solid blue;
 }
 
@@ -159,7 +159,7 @@ body {
 
 .offers-main {
   display: flex;
-  height: 650px;
+  width: 65%;
   padding: 30px;
   flex-direction: column;
   gap: 30px;
@@ -234,8 +234,7 @@ body {
 
 .offers-sponsored {
   display: flex;
-  width: 429px;
-  height: 650px;
+  width: 35%;
   padding: 30px;
   flex-direction: column;
   gap: 30px;
