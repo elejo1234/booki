@@ -182,6 +182,7 @@ body {
   gap: 4px;
   border-radius: 20px;
   background-color: white;
+  box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);
 }
 
 .rectangle20 {
@@ -256,6 +257,7 @@ body {
   align-self: stretch;
   border-radius: 20px;
   background: #FFF;
+  box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);
 }
 
 .img-card-desktop {
