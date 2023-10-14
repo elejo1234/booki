@@ -266,7 +266,7 @@ body {
 }
 
 .img-card-desktop img {
-  max-width: 100%;
+  width: 100%;
   object-fit: cover;
   height: 100%;
   border-radius: 20px 0 0 20px;
@@ -319,7 +319,7 @@ body {
 }
 
 .card img {
-  width: 297.5px;
+  width: 100%;
   height: 380px;
   object-fit: cover;
   flex-shrink: 0;
