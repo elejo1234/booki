@@ -31,6 +31,10 @@ header {
 }
 
 .menubuttons {
+  border-bottom: solid #F2F2F2;
+}
+
+.menubuttons {
   display: flex;
   gap: 68px;
 }
