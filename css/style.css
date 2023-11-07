@@ -366,6 +366,7 @@ footer {
 @media only screen and (max-width: 1024px) {
   .sectiongroup {
     flex-wrap: wrap;
+    flex-direction: column-reverse;
   }
 
   .offers-sponsored {
@@ -385,11 +386,23 @@ footer {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media all and (max-width: 768px) {
   header {
     flex-direction: column;
     align-items: center;
     align-self: stretch;
+  }
+
+  body {
+    background-color: red;
+  }
+
+  .frame-offers-sponsored {
+    flex-direction: column;
+  }
+
+  .frame-sectionactivites {
+    flex-direction: column;
   }
 
   footer {
