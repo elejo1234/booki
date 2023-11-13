@@ -31,10 +31,6 @@ header {
 }
 
 .menubuttons {
-  border-bottom: solid #F2F2F2;
-}
-
-.menubuttons {
   display: flex;
   gap: 68px;
 }
@@ -399,11 +395,20 @@ footer {
     align-self: stretch;
   }
 
+  .menubuttons {
+    border-bottom: solid #F2F2F2;
+  }
+
   .offers-sponsored,
   .offers-main {
     width: 90%;
     border-radius: 0;
     padding: 5%;
+  }
+
+  .barre-bleue:hover {
+    border-top: 0px;
+    border-bottom: 2px solid blue;
   }
 
   .offers-main {
