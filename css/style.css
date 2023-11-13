@@ -391,6 +391,7 @@ footer {
   }
 }
 
+/*Smartphone*/
 @media all and (max-width: 768px) {
   header {
     flex-direction: column;
@@ -398,7 +399,36 @@ footer {
     align-self: stretch;
   }
 
-  card {
+  .offers-sponsored,
+  .offers-main {
+    width: 90%;
+    border-radius: 0;
+    padding: 5%;
+  }
+
+  .offers-main {
+    background-color: white;
+  }
+
+  .filterbar {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .filtersbutton button {
+    width: 46%;
+    margin: 1%;
+  }
+
+  .infogroup {
+    padding: 3%;
+  }
+
+  body {
+    padding: 0;
+  }
+
+  .card {
     width: 100%;
   }
 
